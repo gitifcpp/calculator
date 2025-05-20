@@ -11,19 +11,33 @@
 
 ### Установка и запуск ⚙️
 1.  Клонируйте репозиторий:
-    `git clone https://github.com/gitifcpp/calculator.git`
+    ```bash
+    git clone https://github.com/gitifcpp/calculator.git
+    ```
 2.  Перейдите в директорию проекта:
-    `cd calculator`
+    ```bash
+    cd calculator
+    ```
 3. Создайте виртуальное окружение:
-    `python -m venv .venv`
+    ```bash
+   python -m venv .venv
+    ```
 4. Активируйте виртуальное окружение:
-    `.venv\Scripts\activate`
+    ```bash
+   .venv\Scripts\activate
+    ```
 5. Обновите менеджер пакетов:
-   `python -m pip install --upgrade pip`
-6.  Установите зависимости:
-    `pip install -r requirements.txt`
-7.  Запустите бота:
-    `python calc_meow.py`
+   ```bash
+   python -m pip install --upgrade pip
+   ```
+11.  Установите зависимости:
+    ```bash
+    pip install -r requirements.txt
+    ```
+13.  Запустите бота:
+    ```bash
+    python calc_meow.py
+    ```
 
 ### Контакты 📬
 По техническим вопросам и предложениям: [Telegram](https://t.me/ifcpp)

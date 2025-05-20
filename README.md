@@ -23,18 +23,18 @@
    python -m venv .venv
     ```
 4. Активируйте виртуальное окружение:
-    ```bash
+   ```bash
    .venv\Scripts\activate
     ```
 5. Обновите менеджер пакетов:
    ```bash
    python -m pip install --upgrade pip
    ```
-11.  Установите зависимости:
+6.  Установите зависимости:
     ```bash
     pip install -r requirements.txt
     ```
-13.  Запустите бота:
+7.  Запустите бота:
     ```bash
     python calc_meow.py
     ```

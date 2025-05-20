@@ -10,7 +10,6 @@
 - [ ] Поддержка приоритета операций и скобок
 
 ### Установка и запуск ⚙️
-
 1.  Клонируйте репозиторий:
     ```bash
     git clone https://github.com/gitifcpp/calculator.git
@@ -21,16 +20,19 @@
     ```
 3. Создайте виртуальное окружение:
     ```bash
-   python -m venv .venv
+    python -m venv .venv
     ```
 4. Активируйте виртуальное окружение:
-   ```bash
-   .venv\Scripts\activate
+    ```bash
+    > Для Windows:
+    .venv\Scripts\activate
+    > Для Linux | macOS:
+    source .venv/bin/activate
     ```
 5. Обновите менеджер пакетов:
-   ```bash
-   python -m pip install --upgrade pip
-   ```
+    ```bash
+    python -m pip install --upgrade pip
+    ```
 6.  Установите зависимости:
     ```bash
     pip install -r requirements.txt

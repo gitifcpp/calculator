@@ -10,6 +10,7 @@
 - [ ] Поддержка приоритета операций и скобок
 
 ### Установка и запуск ⚙️
+
 1.  Клонируйте репозиторий:
     ```bash
     git clone https://github.com/gitifcpp/calculator.git

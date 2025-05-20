@@ -23,10 +23,12 @@
     python -m venv .venv
     ```
 4. Активируйте виртуальное окружение:
-    ```bash
     > Для Windows:
+    ```bash
     .venv\Scripts\activate
+    ```
     > Для Linux | macOS:
+    ```bash
     source .venv/bin/activate
     ```
 5. Обновите менеджер пакетов:

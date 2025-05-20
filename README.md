@@ -10,10 +10,20 @@
 - [ ] Поддержка приоритета операций и скобок
 
 ### Установка и запуск ⚙️
-1.  `git clone https://github.com/gitifcpp/calculator.git`
-2.  `python -m pip install --upgrade pip`
-3.  `pip install -r requirements.txt`
-4.  `python calc_meow.py`
+1.  Клонируйте репозиторий:
+    `git clone https://github.com/gitifcpp/calculator.git`
+2.  Перейдите в директорию проекта:
+    `cd calculator`
+3. Создайте виртуальное окружение:
+    `python -m venv .venv`
+4. Активируйте виртуальное окружение:
+    `.venv\Scripts\activate`
+5. Обновите менеджер пакетов:
+   `python -m pip install --upgrade pip`
+6.  Установите зависимости:
+    `pip install -r requirements.txt`
+7.  Запустите бота:
+    `python calc_meow.py`
 
 ### Контакты 📬
 По техническим вопросам и предложениям: [Telegram](https://t.me/ifcpp)
